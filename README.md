@@ -6,5 +6,6 @@ Just setting up my git
 4. Commit changes : git commit -m "message"
 5. Add bracnch : git branch -M main
 6. Add remote repo : git remote add origin "SSH"
-7. Push changes to remote : git push -u origin main
+7. Pull changes and rebase head : git pull --rebase origin <branch>
+8. Push changes to remote : git push -u origin <branch>
 
