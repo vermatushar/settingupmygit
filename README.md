@@ -8,6 +8,7 @@ Just setting up my git
 6. Add remote repo : git remote add origin "SSH"
 7. Pull changes and rebase head : git pull --rebase origin <branch> 
 8. Push changes to remote : git push -u origin <branch>
+	git push origin HEAD:<branch name>
 9. Adding GIT LFS
    After initialising git LFS (only have to do this once)
    git lfs track "<file to track>"
